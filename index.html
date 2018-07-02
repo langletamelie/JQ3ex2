@@ -12,17 +12,18 @@
     <button type="button" name="remove" id="remove">-</button>
   </form>
   <script>
-  $(document).ready(function(){
+    //déclaration de la variable 
     var number = 0;
+    //ajoute un à chaque clic
     $('#add').click(function(){
       number ++;
       $('#text').val(number);
     });
+    //enlève un à chaque clic
     $('#remove').click(function(){
       number --;
       $('#text').val(number);
     });
-  });
   </script>
 </body>
 </html>
